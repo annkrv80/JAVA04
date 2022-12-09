@@ -26,3 +26,11 @@ public class FirstProblem {
         System.out.println("LinkedList: " + duration);
     }
 }
+
+/*public static void main(String[] args) {
+    FirstProblem firstProblem= new FirstProblem();
+    firstProblem.arrayListTime(); 
+    firstProblem.linkedListTime();
+     
+ }*/
+ 
