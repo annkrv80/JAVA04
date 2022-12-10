@@ -12,7 +12,11 @@ public class ThirdProblem {
             if(!a.equals("print") && !a.equals("revert")&& !a.equals("Q")){
                 stack.push(a);
             }else if(a.equals("print")){
-                System.out.println(stack);
+                //System.out.println(stack);
+                for(int i=stack.size()-1; i>0;i--){
+                    System.out.println(stack.elementAt(i));
+
+                }
             }else if(a.equals("revert")){
                 stack.pop();
             }
