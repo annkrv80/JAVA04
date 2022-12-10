@@ -34,7 +34,9 @@ public class SecondProblem {
 
     }
 }
-
+/* main 
+  SecondProblem secondProblem=new SecondProblem();
+        secondProblem.addToLinkedList();*/
 /*
 Реализовать консольное приложение, которое:
 Принимает от пользователя строку вида
